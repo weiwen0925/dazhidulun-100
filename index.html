@@ -1038,5 +1038,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C100P2:END-->
+<!--WY-C100P3:BEGIN-->
+<style id="wy-c100p3-css">
+.c100p3-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c100p3-fabbox.show{display:block;}
+.c100p3-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c100p3-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c100p3-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c100p3-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c100p3-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c100p3-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c100p3-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c100p3-modal.open{display:flex;}
+.c100p3-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c100p3-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c100p3-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c100p3-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c100p3-close:hover{background:#e3d5b8;}
+.c100p3-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c100p3-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c100p3-tbl th,.c100p3-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c100p3-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c100p3-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c100p3-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c100p3-tbl b{color:#8b2500;}
+.c100p3-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c100p3-note b{color:#8b2500;}
+@media(max-width:900px){.c100p3-fabbox{right:14px;}.c100p3-tbl{font-size:11.5px;}.c100p3-card{padding:26px 14px 16px;}}
+</style>
+<div class="c100p3-fabbox" id="c100p3Box"><button class="c100p3-btn" id="c100p3Btn" type="button" aria-label="開啟全景總表"><span class="c100p3-ic">▦</span><span class="c100p3-ls"><span class="c100p3-l1">本品 · 破微細法執 · 大海雙翅</span><span class="c100p3-l2">須彌莊嚴與從解到證</span></span></button></div><div class="c100p3-modal" id="c100p3Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c100p3-card"><button class="c100p3-close" id="c100p3Close" type="button" aria-label="關閉">×</button><h3>卷一百·第三品 般若實相與中觀修證 · 全景總表</h3><p class="sub">卷一百・第三品｜破微細法執四問・大海雙翅定慧等持・須彌莊嚴雙重邏輯・散慧轉三昧熱金不可捉・果報傳承</p><table class="c100p3-tbl"><caption>一、破微細法執核心命題與四個提問（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>對話性質</td><td>薩陀波崙求法非知識累積，而是心性淬鍊；曇無竭說法環繞破微細法執的動態過程，目標是連能破執的工具（般若本身）也一併放下</td></tr><tr><td>核心命題</td><td>一位已徹悟空性的行者，如何避免落入般若著？——粗重我執法執早已破除，但對空、對般若這味良藥本身的執取，卻是最難察覺的微細法執</td></tr><tr><td>四個核心提問</td><td>一、邏輯辯證：平等離之後何以更說無邊？二、度越深廣：大海雙翅之喻。三、堅固莊嚴：須彌一色何以言莊嚴？四、從解到證：懂了空性為何還要修行？</td></tr><tr><td>提問一·平等到無邊</td><td>當行者由平等離證得一味，恰恰潛伏取相危機——這就是一味的認定；無邊並非新境界，而是打破一味邊界感的破執工具，防止空一味被實體化</td></tr><tr><td>提問脈絡貫串</td><td>四問層層遞進，構成本品後續六章的編排骨幹——每一問皆指向同一目標：連能破執的般若之藥，最終也必須被放下</td></tr></tbody></table><table class="c100p3-tbl"><caption>二、大海與雙翅、須彌莊嚴的雙重邏輯</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>無邊的二諦定義</td><td>海有由旬數量有人能渡，何以言無邊？——實無邊（如虛空，無為常法，本體上毫無界限）與人不能到故無邊（大海繞須彌廣八萬二千由旬，凡夫能力所不及）二義</td></tr><tr><td>船與翅的認知基模</td><td>小海（欲界色界）船力可渡，世俗定力可伏粗重煩惱；大海（無色界）船力不可渡，深廣無底，唯有神通出世間智方能凌空度越</td></tr><tr><td>外道致命傷·以我修定</td><td>凡夫外道能生禪定之船卻必止步無色界，致命缺陷在帶著我（有主體感）去修定——我執如壓在船上的重物，微細深海中禪定必沉</td></tr><tr><td>聖人雙翼·定慧等持</td><td>賢聖人不藉外物，自身生出智慧禪定二翅，關鍵在破我而無重量故能凌空——禪定（止）攝心不散生穩定氣流，智慧（觀）銳利如刀破相切割逆風</td></tr><tr><td>須彌莊嚴雙重邏輯</td><td>垂直發展：空性不礙緣起功德，層層展現世間乃至出世間圓滿果報；水平銷鎔：眾鳥到須彌山頂皆同金色，諸法入般若實相皆同一相，無相觀</td></tr></tbody></table><table class="c100p3-tbl"><caption>三、從解到證與果報傳承（合題）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>理知與親證的鴻溝</td><td>薩陀波崙先已知諸法空相，何以還住立七歲？——懂了空性與證入空性是兩回事，須透過極端專注力（三昧）方能跨越</td></tr><tr><td>散慧與三昧·水冰之喻</td><td>散慧如流動之水，柔潤卻不堪踐踏；三昧如寒風凝結之冰，能有所蹈——七年立定的真實功用，不是多懂了什麼，而是把流動的散慧凝結為可踐履的三昧</td></tr><tr><td>熱金不可捉·般若著</td><td>般若波羅蜜雖畢竟清淨，如熱金雖好不可手捉；若貴重般若而生著相，即成垢染——藥治好病，藥亦當捨，這是全品最深的一道破執</td></tr><tr><td>邏輯反轉·法性自空</td><td>非般若使萬法變空，而是萬法本來透明，般若只是看見實相的工具而非製造空的造物主——一切法性本來自空，斬斷對般若本身的實體化執著</td></tr><tr><td>果報與傳承</td><td>薩陀波崙得三昧後遊諸佛國、不離見佛、多集經法、得一切種智；佛終將般若囑累阿難而非須菩提——住世間邊者方能承載世俗諦的容器，流通不斷、世世度生</td></tr></tbody></table><p class="c100p3-note">本品直探修證路上最隱微的一道關卡：一位已徹悟空性的行者，如何避免落入般若著？四個核心提問層層遞進——從平等到無邊的破執辯證，防止一味被實體化；大海與雙翅的譬喻，揭示凡夫以我修定必沉、聖人破我而無重量方能凌空；須彌莊嚴的雙重邏輯，說明空性不礙緣起、萬法皆空卻不妨莊嚴果報；從解到證的鴻溝，則以水冰之喻點出七年立定的真實功用，不在多懂了什麼，而在把流動的散慧凝結為可踐履的三昧。全品終歸於「熱金不可捉」的最高心法——連般若這味無上良藥，也不可執著抓取，藥治好病、藥亦當捨；而果報與傳承的收束，正示現空性證得後並非沉寂，而是起大機用、流通不斷、世世度生的大乘精神。</p></div></div>
+<script id="wy-c100p3-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c100p3Btn"),BOX=document.getElementById("c100p3Box"),MODAL=document.getElementById("c100p3Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=2;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#wyVideoDock,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c100p3Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C100P3:END-->
 </body>
 </html>
