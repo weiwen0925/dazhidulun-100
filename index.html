@@ -985,5 +985,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C100P1:END-->
+<!--WY-C100P2:BEGIN-->
+<style id="wy-c100p2-css">
+.c100p2-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c100p2-fabbox.show{display:block;}
+.c100p2-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c100p2-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c100p2-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c100p2-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c100p2-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c100p2-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c100p2-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c100p2-modal.open{display:flex;}
+.c100p2-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c100p2-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c100p2-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c100p2-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c100p2-close:hover{background:#e3d5b8;}
+.c100p2-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c100p2-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c100p2-tbl th,.c100p2-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c100p2-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c100p2-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c100p2-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c100p2-tbl b{color:#8b2500;}
+.c100p2-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c100p2-note b{color:#8b2500;}
+@media(max-width:900px){.c100p2-fabbox{right:14px;}.c100p2-tbl{font-size:11.5px;}.c100p2-card{padding:26px 14px 16px;}}
+</style>
+<div class="c100p2-fabbox" id="c100p2Box"><button class="c100p2-btn" id="c100p2Btn" type="button" aria-label="開啟全景總表"><span class="c100p2-ic">▦</span><span class="c100p2-ls"><span class="c100p2-l1">本品 · 七相辯證 · 從散慧到三昧</span><span class="c100p2-l2">平等離不動無念無畏一味無邊</span></span></button></div><div class="c100p2-modal" id="c100p2Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c100p2-card"><button class="c100p2-close" id="c100p2Close" type="button" aria-label="關閉">×</button><h3>卷一百·第二品 般若波羅蜜七相 · 全景總表</h3><p class="sub">卷一百・第二品｜法體同構藥病對治・平等離二辯・空亦復空熱金不可捉・不動無念無畏連鎖・一味無邊總矩陣</p><table class="c100p2-tbl"><caption>一、開卷導論·從散慧到三昧·法體同構（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>本品定位</td><td>曇無竭品是大智度論全論終章、常啼求法故事最後一幕，曇無竭正式為薩陀波崙及五百侍女宣說般若波羅蜜相，凝結為平等離不動無念無畏一味無邊七重相貌</td></tr><tr><td>散慧轉三昧</td><td>散慧如風中之燈、未結冰之水，無法遍照踐踏；三昧則水結成冰、風燈入靜室，智慧一旦凝結便產生質變般的轉化力量——諦聽諦受正是攝散慧入三昧的下手處</td></tr><tr><td>法體同構</td><td>諸法X故般若亦X的句式透露根本洞見——能觀之智（般若）與所觀之境（諸法）在法體上絕對同構，般若只是如實反映諸法本性，非以心力強行製造平等</td></tr><tr><td>平等與因果的悖論</td><td>觀諸法平等即是般若、般若即是平等，本體上一相無二，何以還要分別為因為果？若諸法本自平等，現象界修證次第豈不多餘——這是全品要解開的第一個結</td></tr><tr><td>藥病對治四相螺旋</td><td>立基（平等治差別）到破相（離治平等執）到無住（無畏顯不動）到消融（一味達無邊）——否定之否定的螺旋引擎，用一概念破執隨即捨棄該工具</td></tr></tbody></table><table class="c100p2-tbl"><caption>二、平等義兩辯與離義·空亦復空</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>第一辯·因果不二</td><td>般若及諸法雖一相無二無別，行者初觀時是因，觀竟名為果，如須陀洹道得向、如有漏五眾因時名集果時名苦——因果並非實有實體，而是觀待而立的假名</td></tr><tr><td>第二辯·方便說醫療邏輯</td><td>般若甚深微妙，不以方便說則無解者；分別不等則三毒增長，故以平等為藥對治分別差別之病——住眾生等開福德門，住法等但見諸法空、空即平等</td></tr><tr><td>真平等與假平等</td><td>真平等者直趣菩薩道、於空不戲論；假平等者雖得平等而生戲論，執著空相，於平等即是不等——藥若被抓取即變新毒，究竟義是離平等不平等二邊</td></tr><tr><td>第三辯·空亦復空</td><td>行者取平等相而生著，故說般若波羅蜜平等相自性離、色等諸法自相離——大聖說空法為離諸見故，若復見有空，諸佛所不化，連空與平等這帖藥也須空掉</td></tr><tr><td>熱金不可捉</td><td>般若智慧雖如黃金珍貴純潔，能破一切無明，但絕不能以執著心去抓取或概念化；一旦伸手去攬，法愛與戲論便如高熱灼傷自己——用而不住方是心法</td></tr></tbody></table><table class="c100p2-tbl"><caption>三、不動無念無畏連鎖、一味與無邊、終極辯證總矩陣</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>不動無念無畏連鎖</td><td>得平等又於平等離，安住空中則不動——戲論、煩惱、無常皆不能動；若有念即是有相著處，故連修不動之念亦須寂滅（無念）；諸法性不可得故無所畏</td></tr><tr><td>一味·靜態理與動態證</td><td>平等側重理性認知確立空性上的對等，是靜態的理；一味側重轉化融合，如煮石蜜、如百川歸海，將一切差別萬法徹底消融為同一解脫味，是動態的證</td></tr><tr><td>無邊三層拆解</td><td>破常斷世涅惡善等種種對立邊；破前際後際之時間邊；破一切入出座標系——邊名為相，實觀諸法非有非無故無相，無相即是無邊，但聞諸法實相無入無出</td></tr><tr><td>辯證總矩陣四維度</td><td>維度一名相／用（平等，破治差別）到維度二破執／離（離等不動，破治法愛）到維度三轉化／相（一味，顯攝萬法）到維度四究竟／體（無邊，顯絕戲論）</td></tr><tr><td>實踐心法軌跡五節點</td><td>點一散慧（風中燈）到點二住二等（怨親平等見法空）到點三於空不戲論（不捉熱金）到點四安住空中（不動無念無畏）到點五百川歸海（一味無邊無入無出）</td></tr></tbody></table><p class="c100p2-note">本品是曇無竭般若波羅蜜七相的完整展開：平等、離、不動、無念、無畏、一味、無邊，環環相扣如一台「否定之否定」的螺旋引擎——用一個概念破除執著，隨即把這個工具本身也捨棄。平等是治差別之病的方便藥，離是防止藥變新毒的第二道防護，不動無念無畏是安住空中後心理機制的三重連鎖，一味與無邊則是般若攝萬法、絕戲論的動態證境。全品最深的警策是「熱金不可捉」——般若雖是無上珍寶，若生著相即成垢染，藥治好病、藥亦當捨。七相終歸於「但聞諸法實相，無入無出」一句，常啼菩薩由散慧而入三昧、得六百萬三昧門，正是這條心法軌跡從散亂到無疆的具體見證。</p></div></div>
+<script id="wy-c100p2-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c100p2Btn"),BOX=document.getElementById("c100p2Box"),MODAL=document.getElementById("c100p2Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=1;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#wyVideoDock,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c100p2Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C100P2:END-->
 </body>
 </html>
