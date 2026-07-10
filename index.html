@@ -1091,5 +1091,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C100P3:END-->
+<!--WY-C100P4:BEGIN-->
+<style id="wy-c100p4-css">
+.c100p4-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c100p4-fabbox.show{display:block;}
+.c100p4-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c100p4-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c100p4-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c100p4-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c100p4-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c100p4-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c100p4-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c100p4-modal.open{display:flex;}
+.c100p4-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c100p4-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c100p4-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c100p4-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c100p4-close:hover{background:#e3d5b8;}
+.c100p4-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c100p4-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c100p4-tbl th,.c100p4-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c100p4-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c100p4-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c100p4-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c100p4-tbl b{color:#8b2500;}
+.c100p4-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c100p4-note b{color:#8b2500;}
+@media(max-width:900px){.c100p4-fabbox{right:14px;}.c100p4-tbl{font-size:11.5px;}.c100p4-card{padding:26px 14px 16px;}}
+</style>
+<div class="c100p4-fabbox" id="c100p4Box"><button class="c100p4-btn" id="c100p4Btn" type="button" aria-label="開啟全景總表"><span class="c100p4-ic">▦</span><span class="c100p4-ls"><span class="c100p4-l1">本品 · 釋囑累品 · 六重悖論</span><span class="c100p4-l2">經文正典與法佛不二</span></span></button></div><div class="c100p4-modal" id="c100p4Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c100p4-card"><button class="c100p4-close" id="c100p4Close" type="button" aria-label="關閉">×</button><h3>卷一百·第四品 釋囑累品·六重悖論 · 全景總表</h3><p class="sub">卷一百・第四品｜師徒名分勘驗移愛至法・現象器局對象三悖論・體用中道契約三悖論・法佛不二總結矩陣</p><table class="c100p4-tbl"><caption>一、師徒名分勘驗與六重悖論總覽（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>師徒名分勘驗</td><td>佛是汝大師不？汝是佛弟子不？——阿難以雙重肯定回答，為終極付囑立下不可動搖的承諾基礎，隨即佛將愛敬供養的對象從佛身正式轉移至般若</td></tr><tr><td>七番問答總覽</td><td>佛已斷法愛何以殷勤囑累？何以囑累聲聞阿難不囑大菩薩？般若付阿難而餘經付菩薩有何異？先後兩次囑累有何異？何以慇懃鄭重？明知是弟子卻故問？</td></tr><tr><td>六重悖論歸組</td><td>現象悖論（無著對殷勤）、器局悖論（聲聞對大乘）、對象悖論（通教對別教）、體用悖論（般若對方便）、中道悖論（破有對遮無）、契約悖論（依人對依法）</td></tr><tr><td>觀測座標·二諦矩陣</td><td>任一重悖論皆可放進二諦矩陣觀照——表面矛盾屬世俗諦，底層消融屬第一義諦；金剛三昧為眾生碎身如麻米，喻佛陀慈悲如金剛冶煉，至堅空性化作至熱利他</td></tr><tr><td>六重消融總覽</td><td>無著對殷勤消融於二諦圓融示現；聲聞對大乘消融於中道悲智雙運；通教對別教消融於不二門契合；般若對方便消融於即體即用；破有對遮無消融於非有非無中道；依人對依法消融於以法為師</td></tr></tbody></table><table class="c100p4-tbl"><caption>二、現象悖論、器局悖論、對象悖論（前三重）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>現象悖論·無愛之愛</td><td>佛已證一切種智不取於相，何以種種因緣慇懃囑累？——阿難是未離欲人未盡知般若力勢果報，故慇懃囑累；佛雖於一切法無憎愛常寂滅相，而囑累是般若，此即無愛之愛</td></tr><tr><td>金剛慈悲舉重明輕</td><td>以金剛三昧為眾生碎身如麻米，肉身尚願粉碎利生，何況能出生諸佛的般若經法豈有不囑累之理——空性在現象界的最強烈顯化</td></tr><tr><td>器局悖論·角色分工</td><td>阿難常侍佛左右、聞持陀羅尼一聞不失，是流通保存的容器；彌勒等大菩薩深知般若力、佛滅度後各各分散度眾，是實證力行的行者——二者悲智雙運缺一不可</td></tr><tr><td>對象悖論·共相別相</td><td>般若波羅蜜是非祕密法，三乘共學之共相通教，囑累阿難無咎；法華等甚深難信，唯大菩薩堪受，是別相別教——同一般若，深淺有異而本體是一</td></tr><tr><td>大藥師以毒為藥</td><td>大菩薩能把生死煩惱之毒煉成佛道資糧之藥，關鍵在深知生死煩惱本無自性（無所得），故能轉輪迴為大藥，升起容納萬法的大乘心量</td></tr></tbody></table><table class="c100p4-tbl"><caption>三、體用悖論、中道悖論、契約悖論與法佛不二（後三重總結）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>體用悖論·真金金飾</td><td>第一次囑累（見阿閦佛品）說般若之體，如真金；本品囑累說般若之用（方便），如金飾——般若與方便本體是一，以所用小異故別說，即體即用權實不二</td></tr><tr><td>方便煞車與還起</td><td>菩薩得一切法性空即欲滅度，以方便力煞車不取涅槃證，再還起善法行六波羅蜜不隨空去——般若中雖有方便，方便中雖有般若</td></tr><tr><td>中道悖論·估客託寶</td><td>富商遠行必將大價妙寶慇懃囑累於子，因其子未識妙寶價重；佛先說諸法空相遮有邊，今慇懃囑累破無邊，兩端俱遣，指針即停在中道</td></tr><tr><td>契約悖論·三步漏斗</td><td>釐清名份（排除名字弟子）到定義真弟子（身口意相稱、自捨其心）到終極指令（汝今恭敬於我，我滅度後恭敬般若，亦當如是）——依人轉為依法</td></tr><tr><td>法佛不二總結</td><td>六大重難皆消融於世俗諦善巧與第一義諦突破的二諦圓融；般若在世則為佛在，見緣起即見法、見法即見佛——人去而法存，相滅而體常，無住涅槃的圓滿</td></tr></tbody></table><p class="c100p4-note">本品直面〈釋囑累品〉開卷的怪問——佛既已無著，何以殷勤？佛既明知阿難是弟子，何以還故問？論主以七番問答層層拆解，收攏為六重悖論：現象悖論以金剛慈悲化解無著與殷勤的表面矛盾；器局悖論指出阿難與大菩薩實為流通保存與實證力行的角色分工；對象悖論以共相通教與別相別教說明同一般若深淺有異而本體是一；體用悖論以真金金飾之喻證成般若與方便即體即用；中道悖論以估客託寶說明慇懃鄭重正是破有遮無兩邊俱遣的中道演示；契約悖論則以三步漏斗完成從依人到依法的終極轉移。六重悖論最終收束於「法佛不二」——般若在世則為佛在，見緣起即見法、見法即見佛，這場臨終告別，實質是一場精密無比的中觀邏輯推演。</p></div></div>
+<script id="wy-c100p4-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c100p4Btn"),BOX=document.getElementById("c100p4Box"),MODAL=document.getElementById("c100p4Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=3;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#wyVideoDock,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c100p4Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C100P4:END-->
 </body>
 </html>
