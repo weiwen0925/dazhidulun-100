@@ -1144,5 +1144,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C100P4:END-->
+<!--WY-C100P5:BEGIN-->
+<style id="wy-c100p5-css">
+.c100p5-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c100p5-fabbox.show{display:block;}
+.c100p5-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c100p5-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c100p5-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c100p5-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c100p5-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c100p5-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c100p5-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c100p5-modal.open{display:flex;}
+.c100p5-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c100p5-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c100p5-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c100p5-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c100p5-close:hover{background:#e3d5b8;}
+.c100p5-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c100p5-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c100p5-tbl th,.c100p5-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c100p5-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c100p5-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c100p5-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c100p5-tbl b{color:#8b2500;}
+.c100p5-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c100p5-note b{color:#8b2500;}
+@media(max-width:900px){.c100p5-fabbox{right:14px;}.c100p5-tbl{font-size:11.5px;}.c100p5-card{padding:26px 14px 16px;}}
+</style>
+<div class="c100p5-fabbox" id="c100p5Box"><button class="c100p5-btn" id="c100p5Btn" type="button" aria-label="開啟全景總表"><span class="c100p5-ic">▦</span><span class="c100p5-ls"><span class="c100p5-l1">本品 · 釋囑累品 · 六大悖論</span><span class="c100p5-l2">三維解構與中觀大統合</span></span></button></div><div class="c100p5-modal" id="c100p5Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c100p5-card"><button class="c100p5-close" id="c100p5Close" type="button" aria-label="關閉">×</button><h3>卷一百·第五品 釋囑累品·三維解構 · 全景總表</h3><p class="sub">卷一百・第五品｜核心張力生滅語言傳不生滅理・情理次數斷減三悖論・業力境界結集三悖論・中觀大統合永恆橋樑</p><table class="c100p5-tbl"><caption>一、核心張力與六大悖論全景（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>核心張力</td><td>般若波羅蜜畢竟寂滅、無生無滅、無形無色，屬第一義諦；囑累書寫受持傳燈卻無一不落於語言文字世俗諦——如何以生滅的語言傳遞不生滅的真理，是全品張力源頭</td></tr><tr><td>六大悖論全景</td><td>情理悖論（敬佛輕法）、次數悖論（三囑之謎）、斷減悖論（虛空不可滅）、業力悖論（帶業見佛）、境界悖論（阿羅漢之喜）、結集悖論（大乘非佛說）</td></tr><tr><td>三維解構方法論</td><td>邏輯拆解（前後文義與制度推演）到實踐心法（心性轉化與修證操作）到中觀映射（中論二諦與八不中道）——三軸層層遞進終歸不二</td></tr><tr><td>經文伏線</td><td>當愛敬供養般若生敬佛輕法之疑；乃至第二第三生三囑次數之疑；莫作最後斷種人生虛空可否斷滅之疑；不離見佛聞法生帶業能否見佛之疑；皆大歡喜生阿羅漢何以喜之疑</td></tr><tr><td>因中說果·母子一體</td><td>寂滅的理體必須假藉有相的傳承，才能在世間相續不絕——般若說亦不增不說亦不減的畢竟寂滅，與莫令斷滅的慇懃三囑，本非矛盾而是因果一體</td></tr></tbody></table><table class="c100p5-tbl"><caption>二、情理悖論、次數悖論、斷減悖論（前三重）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>情理悖論·敬佛輕法</td><td>般若是諸佛師，何以教阿難敬佛而非敬般若？——阿難漏未盡不深知法實，佛以三十二相大光明可見之身喻無形無色的般若，藉具象牽引抽象，敬佛即所以敬法</td></tr><tr><td>次數悖論·三之數</td><td>一囑累則足何以至三？——法規威攝（諸佛常法語不過三）加表現節奏（一說太緩過三太急）加對機轉心（扭轉阿難心向聲聞一身求度），三者交會於三</td></tr><tr><td>傳燈無盡</td><td>為不令法滅故，汝當教化弟子、弟子復教餘人展轉相教，譬如一燈復然餘燈其明轉多——莫作最後斷種人，從自了漢的個人解脫昇華為紹繼佛種的歷史責任</td></tr><tr><td>斷減悖論·理常教脆</td><td>般若本相無生無滅不可戲論不可破壞（第一義諦）；般若載體文字語言書卷解說極易毀壞（世俗諦）——所謂滅般若非燒毀經卷，而是聞法後取相分別起諸鬪諍</td></tr><tr><td>見法即佛</td><td>如般若波羅蜜相，莫著文字語言教化眾生，是名不滅；般若是諸佛母，法寶不離佛寶，若般若在世則為佛在世，母在子在，見法即同見佛</td></tr></tbody></table><table class="c100p5-tbl"><caption>三、業力悖論、境界悖論、結集悖論與中觀大統合（後三重總結）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>業力悖論·真聽轉業</td><td>物理聽（耳聞而不信受）與化學聽（信受奉行）之別；福德純厚者般若智慧力大於業力得轉身見佛，福德微薄者業力暫勝須先償眾罪久後亦必當得佛，罪性本空緣起不失</td></tr><tr><td>境界悖論·法喜非欲喜</td><td>大阿羅漢已證實際何以大歡喜？——世俗情慾之喜源於貪愛執著，聖者法義之喜源於斷疑生信，般若了了解說斷除殘疑，是智力上的豁然開朗而非情緒波動</td></tr><tr><td>結集悖論·容量對機</td><td>摩訶衍甚深難信、卷帙無量如大海，三藏如杯難容；大乘能兼小乘，小乘不能容大乘；阿難籌量眾生志業大小，另集摩訶衍，是觀機而隱顯的不說之說</td></tr><tr><td>六悖論統合矩陣</td><td>六題皆循邏輯拆解見其方便、中觀映射歸其究竟——情感轉移對依俗顯真、制度轉心對行於中道、理常教脆對取相殺法、智導時序對罪性本空、斷疑見巧對戲論寂滅、容量對機對大小相待生</td></tr><tr><td>永恆橋樑</td><td>囑累並非文獻交接，而是佛陀在第一義諦寂滅與世俗諦悲願之間搭建的永恆連結；理體雖空，悲願不空；燈具雖壞，薪火相傳，不落斷滅、法身常在，全論一百卷至此圓滿</td></tr></tbody></table><p class="c100p5-note">本品以三維解構法——邏輯拆解、實踐心法、中觀映射——逐一化解〈釋囑累品〉埋藏的六大悖論。情理悖論說明敬佛正是敬法的橋樑；次數悖論揭示三之數是法規、節奏、根機三重考量的交會點；斷減悖論分辨理體常住與教法需護的差異，所謂滅法不在經卷存毀而在取相鬪諍；業力悖論以物理聽與化學聽之別，說明真聽方能轉業、罪性本空而緣起不失；境界悖論指出阿羅漢的大歡喜是斷疑生信的智力豁然，而非情慾之喜；結集悖論則以容量對機解釋大乘何以不入三藏，卻是觀機而隱顯的不說之說。六大悖論終歸於一張統合矩陣，揭示囑累的終極意義——並非文獻交接，而是佛陀在第一義諦的寂滅與世俗諦的悲願之間，搭建一座從空性走向悲願的永恆橋樑，法身常在，百卷《大智度論》至此圓滿。</p></div></div>
+<script id="wy-c100p5-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c100p5Btn"),BOX=document.getElementById("c100p5Box"),MODAL=document.getElementById("c100p5Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=4;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#wyVideoDock,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c100p5Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C100P5:END-->
 </body>
 </html>
