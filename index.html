@@ -1549,5 +1549,61 @@ if(document.readyState!=="loading")setTimeout(boot,300);
 else document.addEventListener("DOMContentLoaded",function(){setTimeout(boot,300);});
 })();</script>
 <!--WY-FABDOCK:END-->
+<!--WY-BH100P1:BEGIN-->
+<style id="wy-bh100p1-css">
+.bh100p1-fabbox{position:fixed;right:22px;bottom:150px;z-index:123;display:none;}
+.bh100p1-fabbox.show{display:block;}
+.bh100p1-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#4a5a68,#232d36);padding:8px 15px;border-radius:22px;border:1px solid rgba(150,180,205,.55);box-shadow:0 4px 16px rgba(0,0,0,.32);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.bh100p1-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(120,160,200,.5);}
+.bh100p1-ic{font-size:15px;line-height:1;color:#bcd4ea;}
+.bh100p1-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.bh100p1-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.bh100p1-l2{font-size:13px;font-weight:700;color:#eef4fa;white-space:nowrap;}
+.bh100p1-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(22,26,30,.6);padding:16px;}
+.bh100p1-modal.open{display:flex;}
+.bh100p1-card{position:relative;background:#fbf7ee;max-width:1080px;width:100%;max-height:90vh;overflow:auto;border:1px solid #d3cdbf;border-radius:14px;padding:28px 22px 20px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.bh100p1-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#3f5160;}
+.bh100p1-card .sub{margin:0 0 12px;font-family:"Noto Sans TC",sans-serif;font-size:12.5px;color:#5b6b78;}
+.bh100p1-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#eceef0;color:#3f5160;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.bh100p1-close:hover{background:#dde2e6;}
+.bh100p1-tbl{width:100%;border-collapse:collapse;font-size:12.8px;margin:.2em 0 1em;}
+.bh100p1-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#3f5160;font-size:14px;text-align:left;margin:.4em 0 .5em;}
+.bh100p1-tbl th,.bh100p1-tbl td{border:1px solid #d8d2c4;padding:.5em .65em;text-align:left;vertical-align:top;line-height:1.72;}
+.bh100p1-tbl thead th{background:#3f5160;color:#eef4fa;font-weight:700;position:sticky;top:0;}
+.bh100p1-tbl thead th:nth-child(1){width:32%;}.bh100p1-tbl thead th:nth-child(2){width:41%;}.bh100p1-tbl thead th:nth-child(3){width:27%;}
+.bh100p1-src{font-family:"Noto Serif TC",serif;color:#5a4636;background:#f6efe0;letter-spacing:.3px;}
+.bh100p1-guan{background:#eef2f5;color:#37505f;}
+.bh100p1-tbl tbody tr:nth-child(even) td{background:#faf6ee;}
+.bh100p1-tbl tbody tr:nth-child(even) td.bh100p1-guan{background:#e8eef2;}
+.bh100p1-tbl b{color:#8b2500;}
+.bh100p1-guan b{color:#2f6b5a;}
+.bh100p1-note{font-size:12px;color:#4a5560;line-height:1.95;background:#eef2f5;border-left:3px solid #7f9cb5;border-radius:0 6px 6px 0;padding:11px 14px;margin:2px 0 0;}
+.bh100p1-note b{color:#8b2500;}
+@media(max-width:900px){.bh100p1-fabbox{right:14px;}.bh100p1-tbl{font-size:11px;}.bh100p1-card{padding:22px 12px 14px;}}
+</style>
+<div class="bh100p1-fabbox" id="bh100p1Box"><button class="bh100p1-btn" id="bh100p1Btn" type="button" aria-label="開啟白話翻譯表"><span class="bh100p1-ic">譯</span><span class="bh100p1-ls"><span class="bh100p1-l1">本品 · 原文·白話·中觀</span><span class="bh100p1-l2">白話翻譯表</span></span></button></div><div class="bh100p1-modal" id="bh100p1Modal" role="dialog" aria-modal="true"><div class="bh100p1-card"><button class="bh100p1-close" id="bh100p1Close" type="button" aria-label="關閉">×</button><h3>第1品 · 雙尊對境‧法體同構 原文↔白話↔中觀 翻譯表</h3><p class="sub">《大智度論》卷一百 · 釋曇無竭品第八十九（上）‧ 薩陀波崙禮謁曇無竭、般若波羅蜜相二十二重同構列舉、六百萬三昧頓證、十方佛土同相說法、流通付囑，及論主釋曰堪受教化之機‧因果相似義 · 原文↔白話↔中觀概念 逐段對照</p><table class="bh100p1-tbl"><caption>《大智度論》卷100‧第一品‧雙尊對境與法體同構‧原文｜白話翻譯｜中觀概念（共10段）</caption><thead><tr><th>原文</th><th>白話翻譯</th><th>中觀概念</th></tr></thead><tbody><tr><td class="bh100p1-src">人之一身，頭為最上，足為最下，以頭禮足，恭敬之至。</td><td>人的身體，頭部是最尊貴的部位，腳是最卑下的部位；用自己的頭去頂禮對方的腳，這是表達恭敬到了極點的禮節。</td><td class="bh100p1-guan"><b>身分階序與空觀的接引</b>——以頭禮足看似只是印度古禮的身體姿勢規範，實則揭示：般若的教說要能被聽入，須先有恭敬心把我慢放低；身分階序雖是假名安立，善用此假名卻能成為趣入空義的方便階梯。</td></tr><tr><td class="bh100p1-src">爾時，薩陀波崙菩薩摩訶薩及長者女并五百侍女到曇無竭菩薩摩訶薩所，散天曼陀羅華，頭面禮畢，退坐一面。曇無竭菩薩見其坐已，告薩陀波崙菩薩言：「善男子！諦聽！諦受！今當為汝說般若波羅蜜相。」</td><td>這時，薩陀波崙菩薩摩訶薩以及長者的女兒和五百位侍女，來到曇無竭菩薩摩訶薩的座前，散下天界的曼陀羅花，行過頭面禮足之禮後，退到一旁坐下。曇無竭菩薩見他們已經坐定，便對薩陀波崙菩薩說：「善男子！你要仔細地聽、如實地領受！我現在要為你宣說般若波羅蜜的相貌。」</td><td class="bh100p1-guan"><b>諦聽諦受·入定之門</b>——「諦聽、諦受」四字看似只是尋常的聞法叮嚀，實則是聽者收攝散亂心、將心一凝定的入手處；唯有心先定，才承接得住下文層層展開的法體同構教說，呼應般若非僅是知識傳授，而是需要禪定基礎的甚深法門。</td></tr><tr><td class="bh100p1-src">善男子！諸法等故，當知般若波羅蜜亦等。諸法離故，當知般若波羅蜜亦離。諸法不動故，當知般若波羅蜜亦不動。諸法無念故，當知般若波羅蜜亦無念。諸法無畏故，當知般若波羅蜜亦無畏。諸法一味故，當知般若波羅蜜亦一味。諸法無邊故，當知般若波羅蜜亦無邊。諸法無生故，當知般若波羅蜜亦無生。諸法無滅故，當知般若波羅蜜亦無滅。虛空無邊故，當知般若波羅蜜亦無邊。大海水無邊故，當知般若波羅蜜亦無邊。須彌山莊嚴故，當知般若波羅蜜亦莊嚴。虛空無分別故，當知般若波羅蜜亦無分別。色無邊故，當知般若波羅蜜亦無邊；受、想、行、識無邊故，當知般若波羅蜜亦無邊。地種無邊故，當知般若波羅蜜亦無邊；水種、火種、風種無邊故，當知般若波羅蜜亦無邊；空種無邊故，當知般若波羅蜜亦無邊。如金剛等故，當知般若波羅蜜亦等。諸法無分別故，當知般若波羅蜜亦無分別。諸法性不可得故，當知般若波羅蜜性亦不可得。諸法無所有等故，當知般若波羅蜜亦無所有等。諸法無作故，當知般若波羅蜜亦無作。諸法不可思議故，當知般若波羅蜜亦不可思議。</td><td>善男子！因為一切法平等，所以應當知道般若波羅蜜也是平等的。因為一切法遠離諸相，所以般若波羅蜜也是遠離的。因為一切法不動，所以般若波羅蜜也是不動的。因為一切法無念，所以般若波羅蜜也是無念的。因為一切法無所畏懼，所以般若波羅蜜也是無所畏懼的。因為一切法是同一味，所以般若波羅蜜也是同一味。因為一切法無邊際，所以般若波羅蜜也是無邊際的。因為一切法不生，所以般若波羅蜜也是不生的。因為一切法不滅，所以般若波羅蜜也是不滅的。因為虛空無邊，所以般若波羅蜜也無邊。因為大海水無邊，所以般若波羅蜜也無邊。因為須彌山莊嚴，所以般若波羅蜜也莊嚴。因為虛空沒有分別，所以般若波羅蜜也沒有分別。因為色蘊無邊，所以般若波羅蜜也無邊；因為受、想、行、識四蘊無邊，所以般若波羅蜜也無邊。因為地大種無邊，所以般若波羅蜜也無邊；因為水大種、火大種、風大種無邊，所以般若波羅蜜也無邊；因為空大種無邊，所以般若波羅蜜也無邊。因為像金剛一樣堅固平等，所以般若波羅蜜也是如此平等。因為一切法沒有分別，所以般若波羅蜜也沒有分別。因為諸法的自性不可得，所以般若波羅蜜的自性也不可得。因為一切法本無所有而平等，所以般若波羅蜜也是無所有而平等。因為一切法無所造作，所以般若波羅蜜也無所造作。因為一切法不可思議，所以般若波羅蜜也不可思議。</td><td class="bh100p1-guan"><b>法體同構·二十二重排比</b>——曇無竭以「諸法X故般若亦X」的固定句式連舉二十餘種性質（等、離、不動、無念、無畏、一味、無邊、無生無滅……不可思議），逐一將般若波羅蜜與一切法的體性等同起來；這正是中觀不二的極致展現——般若不是外加於諸法之上的另一種殊勝之法，而是諸法本來面目（畢竟空）被如實照見時的別名。</td></tr><tr><td class="bh100p1-src">是時，薩陀波崙菩薩摩訶薩即於座上得諸三昧，所謂諸法等三昧，諸法離三昧，諸法無畏三昧，諸法一味三昧，諸法無邊三昧，諸法無生三昧，諸法無滅三昧，虛空無邊三昧，大海水無邊三昧，須彌山莊嚴三昧，虛空無分別三昧，色無邊三昧，受、想、行、識無邊三昧；地種無邊三昧，水種、火種、風種、空種無邊三昧；如金剛等三昧，諸法無分別三昧，諸法不可思議三昧——如是等，得六百萬諸三昧門。</td><td>這時，薩陀波崙菩薩摩訶薩就在座位上證得了種種三昧，也就是諸法平等三昧、諸法遠離三昧、諸法無畏三昧、諸法一味三昧、諸法無邊三昧、諸法不生三昧、諸法不滅三昧、虛空無邊三昧、大海水無邊三昧、須彌山莊嚴三昧、虛空無分別三昧、色蘊無邊三昧、受想行識四蘊無邊三昧；地大種無邊三昧、水火風空四大種無邊三昧；如金剛般堅固平等的三昧、諸法無分別三昧、諸法不可思議三昧——像這樣，總共證得了六百萬種三昧法門。</td><td class="bh100p1-guan"><b>聞即入定·教證同時</b>——薩陀波崙一聽聞上述二十餘種法體同構的教說，當下就在座位上一一證入相應的三昧，聞、思、修三者幾乎同步完成；這說明般若波羅蜜的教說本身即具轉化力，聽聞者若心地相應，教理即刻能轉為現量的禪定體證，不待次第漸修。</td></tr><tr><td class="bh100p1-src">爾時，佛告須菩提：「如我今於三千大千世界中與諸比丘僧圍繞，以是相、以是像貌、以是名字說般若波羅蜜；薩陀波崙得是六百萬三昧門，見東方、南西北方、四維、上下如恒河沙等三千大千世界中諸佛與諸比丘恭敬圍繞，以如是相、以是像貌、以是名字說是摩訶般若波羅蜜亦如是。薩陀波崙菩薩從是已後，多聞、智慧不可思議，如大海水；常不離諸佛，生於有佛土中。乃至夢中未曾不見佛時；一切眾難皆悉已斷，在所佛土隨願往生。」</td><td>這時，佛陀告訴須菩提：「就如同我現在於三千大千世界中，被眾比丘僧眾恭敬圍繞，以這樣的相貌、這樣的名字宣說般若波羅蜜一樣；薩陀波崙證得了這六百萬種三昧法門之後，能見到東方、南方、西方、北方、四維、上方、下方，如恆河沙數那樣多的三千大千世界中，諸佛也同樣被眾比丘恭敬圍繞，以這樣的相貌、這樣的名字宣說這摩訶般若波羅蜜，情形完全一樣。薩陀波崙菩薩從此以後，多聞與智慧都不可思議，如同大海之水一般深廣；他常不離開諸佛，出生在有佛出世的國土之中。乃至於在夢中，也未曾有不見佛的時候；一切的苦難障礙都已經斷除，能隨自己的心願往生到所希求的任何佛土。」</td><td class="bh100p1-guan"><b>一多相即·十方佛土同一相</b>——薩陀波崙證入三昧後所見，是十方恆河沙數世界中，諸佛皆以同一相貌、同一名字說法；這正是一即一切、一切即一的具體示現：說法場景在十方無量佛土中重複顯現而互不相礙，說明現象界的多樣性與空性的同一性並不衝突，反而彼此圓融無盡。</td></tr><tr><td class="bh100p1-src">須菩提！當知是般若波羅蜜因緣，能成就菩薩摩訶薩一切功德，得一切種智。以是故，須菩提！諸菩薩摩訶薩若欲學六波羅蜜、欲深入諸佛智慧、欲得一切種智，應受持是般若波羅蜜，誦、讀、正憶念、廣為人說，亦書寫經卷，供養、尊重、讚歎，香華乃至妓樂。何以故？般若波羅蜜是過去、未來、現在十方諸佛母，十方諸佛所尊重故。</td><td>須菩提！你應當知道，憑藉這般若波羅蜜的因緣，能夠成就菩薩摩訶薩的一切功德，證得一切種智。因此，須菩提！諸位菩薩摩訶薩如果想要修學六波羅蜜、想要深入諸佛的智慧、想要證得一切種智，就應當受持這般若波羅蜜，誦讀它、正確地憶念它、廣為他人宣說它，也應當書寫經卷，加以供養、尊重、讚歎，用香、花乃至音樂來供養。這是為什麼呢？因為般若波羅蜜是過去、未來、現在十方一切諸佛的母親，是十方諸佛所共同尊重的緣故。</td><td class="bh100p1-guan"><b>般若為佛母</b>——般若波羅蜜是十方諸佛母一語，點明般若不是諸佛眾多教法中的一種，而是諸佛所以能成佛的根本源頭；一切佛陀的功德、相好、智慧，皆從照見諸法實相（畢竟空）而出生，故受持、書寫、供養般若，等同於直接親近成佛之因。</td></tr><tr><td class="bh100p1-src">釋曰：曇無竭既出，至法座所，遍觀無勝己者，於是而坐。爾時，薩陀波崙菩薩知坐已定，到曇無竭所，頭面禮足，一面坐。</td><td>（論主）解釋說：曇無竭菩薩出定之後，來到法座所在之處，環顧四周，見沒有比自己更殊勝的人，於是便在法座上坐下。這時，薩陀波崙菩薩見曇無竭已經安坐妥當，便走到他面前，以頭面禮敬他的雙足，然後退坐一旁。</td><td class="bh100p1-guan"><b>遍觀無勝而坐·法王座的空性基礎</b>——曇無竭遍觀無勝己者而坐上法座，並非我慢自恃，而是說法者須先安住於甚深禪定與智慧之中，此座位的殊勝本是緣於法而非緣於人；正如法座本身無自性，說法者的尊貴也只在於他所照見、所傳達的實相，而非人我的高下。</td></tr><tr><td class="bh100p1-src">曇無竭見其坐已，知從遠來，不惜身命，種種勤苦，為欲聞法。初相見時，日垂欲沒，少時聞法；曇無竭以日沒故，起入宮中。今為法故，七歲渴仰，不生異心；垂欲出時，以血灑地，知其為法不惜身命，其心不退，決定無疑，堪受教化。是故告言：「善男子！一心諦聽！」</td><td>曇無竭見薩陀波崙已經坐定，知道他是從遙遠之處而來，一路上不顧惜自己的身命，經歷種種艱辛困苦，都是為了想要聽聞正法。初次相見的時候，正值日將西沉，只聽了短暫的法就結束；曇無竭因為日落的緣故，起身進入宮中。如今薩陀波崙為了求法，七年間渴望仰慕，不曾生起絲毫異心；將要出定之時，他甚至以刀自刺、血灑於地，可見他為法不惜身命，心志不曾退轉，堅定而毫無疑惑，已經夠資格承受教化了。因此曇無竭才對他說：「善男子！你要一心一意、仔細諦聽！」</td><td class="bh100p1-guan"><b>堪受教化的判準</b>——曇無竭並非隨機說法，而是先審視薩陀波崙七歲渴仰不生異心、以血灑地不惜身命的具體行持，確認其心志已臻堅固不退，才正式開演甚深般若；空法不輕易授予心猶動搖者，正是大乘亦有次第的體現。</td></tr><tr><td class="bh100p1-src">上疑諸佛來去，已斷；今但欲聞甚深般若波羅蜜，是故為說「般若波羅蜜相」。「般若波羅蜜相」者，如先諸法平等義中說。</td><td>前面關於「諸佛有沒有來去」的疑問，已經斷除了；如今薩陀波崙只是想要聽聞甚深的般若波羅蜜，因此曇無竭為他宣說「般若波羅蜜的相貌」。所謂「般若波羅蜜的相貌」，就如同先前在諸法平等的義理當中所說的那樣。</td><td class="bh100p1-guan"><b>疑斷之後方堪聞法</b>——論主特別點出上疑已斷是說法的前提：唯有先破除諸佛有來有去這類粗顯的法執之疑，心中不再糾結於表相的來去生滅，才有資格繼續深入般若波羅蜜相這一層更精微的空義；顯示破執與聞法是層層遞進、環環相扣的次第。</td></tr><tr><td class="bh100p1-src">或有人言：般若波羅蜜力故，觀諸法皆平等；非諸法性性自平等。是故，曇無竭言：「諸法平等故，般若波羅蜜平等。」所以者何？因果相似故。初觀諸法平等是因，決定心得般若波羅蜜是為果。</td><td>或許有人會這樣說：是因為般若波羅蜜的力量，才能觀見一切法都平等；並不是諸法的自性本來就是平等的。因此，曇無竭才說：「因為諸法平等，所以般若波羅蜜才平等。」這是什麼緣故呢？因為因與果是相似相應的緣故。最初觀見諸法平等，這是因；最終以決定不移之心證得般若波羅蜜，這便是果。</td><td class="bh100p1-guan"><b>發現而非創造平等</b>——此段預先破斥一種常見誤解：以為平等是般若這個殊勝工具觀出來、創造出來的結果，彷彿諸法本不平等、要靠般若才被拉平。曇無竭糾正說：諸法平等是本來如此的體性，般若只是如實照見（發現）此一平等，而非賦予或製造平等——這正是中觀性空法爾如是、非修所生的核心立場。</td></tr></tbody></table><p class="bh100p1-note">本表為卷一百第一品「釋曇無竭品（上）」薩陀波崙至曇無竭座前、曇無竭開演般若波羅蜜相（諸法Ｘ故般若亦Ｘ二十二重列舉）、六百萬三昧頓證、佛述十方同相說法、流通付囑經文，及論主釋曰（堪受教化之機、因果相似義）之原文‧白話‧中觀三欄逐段對照，共10段。白話忠於原意、不增不減。　中觀關鍵詞：法體同構　二十二重排比　一多相即　般若為佛母　因果相似</p></div></div>
+<script id="wy-bh100p1-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("bh100p1Btn"),BOX=document.getElementById("bh100p1Box"),MODAL=document.getElementById("bh100p1Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=0;
+var CBOX=document.getElementById("c100p1Box");
+function place(){
+  var b=null;
+  if(CBOX){var st=getComputedStyle(CBOX);var r=CBOX.getBoundingClientRect();if(st.position==="fixed"&&r.height>0&&st.display!=="none")b=Math.round(window.innerHeight-r.top)+8;}
+  if(b===null){var eb=document.querySelector(".wy-ebox");if(eb){var er=eb.getBoundingClientRect();if(er.height>4)b=Math.round(window.innerHeight-er.top)+8;}}
+  if(b===null)b=150;
+  BOX.style.bottom=b+"px"; /*BHPLACE*/
+}
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="bh100p1Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-BH100P1:END-->
 </body>
 </html>
